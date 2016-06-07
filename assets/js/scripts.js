@@ -1,5 +1,5 @@
 /*
-Theme Name: IAMX
+Theme Name: Youssuf Radi
 Author: Trendy Theme
 Author URL: trendytheme.net
 */
