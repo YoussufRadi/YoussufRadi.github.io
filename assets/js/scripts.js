@@ -267,17 +267,17 @@ jQuery(function ($) {
         $this.prevAll('.alert').remove();
 
         $.post( $action, $data, function( data ) {
+            //
+            // if( data.response=='error' ){
+            //
+            //     $this.before( '<div class="alert alert-danger">'+data.message+'</div>' );
+            // }
 
-            if( data.response=='error' ){
-
-                $this.before( '<div class="alert alert-danger">'+data.message+'</div>' );
-            }
-
-            if( data.response=='success' ){
+            // if( data.response=='success' ){
 
                 $this.before( '<div class="alert alert-success">'+data.message+'</div>' );
                 $this.find('input, textarea').val('');
-            }
+            // }
 
         }, "json");
 
