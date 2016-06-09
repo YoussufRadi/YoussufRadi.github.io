@@ -587,8 +587,7 @@
                 <div class="row">
                         <div class="contact-form">
                             <strong>Send me a message</strong>
-                            <form name="contact-form" id="contactForm" action="./sendemail.php" method="POST">
-
+                            <form name="contact-form" id="contactForm" action="sendemail.php" method="POST" enctype="multipart/form-data">
                                 <div class="form-group">
                                     <label for="name">Name</label>
                                     <input type="text" name="name" class="form-control" id="name" required="">
@@ -642,7 +641,7 @@
         </div>
 
         <!-- Javascript files -->
-				<script src="assets/js/jquery.js"></script>
+        <script src="assets/js/jquery.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/jquery.stellar.min.js"></script>
         <script src="assets/js/jquery.sticky.js"></script>
@@ -653,9 +652,6 @@
         <script src="assets/js/jquery.easypiechart.js"></script>
         <script src="assets/js/jquery.shuffle.min.js"></script>
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
-        <script src="assets/js/jquery.fitvids.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
         <script src="assets/js/scripts.js"></script>
     </body>
 </html>
